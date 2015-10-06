@@ -4,7 +4,7 @@ function generate_quote(quote, person)
 	var quote_array = quote_new.split(" ");
 	var prev_word = quote_array[quote_array.length - 1];
 	var new_word = generate_next_word(prev_word,person);
-	quote_new += " ";
+	quote_new += "  ";
 	quote_new += new_word;
 	if(new_word[new_word.length - 1] == ".")
 	{
